@@ -49,15 +49,15 @@ export default function Navbar() {
             </button>
           ) : (
             <>
-              <button 
+              <button
                 onClick={() => setCurrentPage('auth')}
-                className="hidden sm:block px-4 py-2 text-sm font-medium text-on-surface hover:bg-surface-variant/50 rounded-lg transition-all"
+                className="hidden sm:block px-4 py-2 text-sm font-medium text-[#1a1814] hover:text-[#b85c38] rounded-lg transition-all"
               >
                 Iniciar Sesión
               </button>
-              <button 
+              <button
                 onClick={() => setCurrentPage('auth')}
-                className="px-6 py-2 bg-primary text-on-primary rounded-lg text-sm font-bold shadow-lg shadow-primary/20 hover:bg-primary-container transition-all"
+                className="px-6 py-2 bg-[#b85c38] text-white rounded-2xl text-sm font-bold shadow-[0_4px_20px_rgba(184,92,56,0.3)] hover:bg-[#9a4b2e] transition-all"
               >
                 Comenzar
               </button>
